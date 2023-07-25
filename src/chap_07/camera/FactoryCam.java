@@ -1,6 +1,6 @@
 package chap_07.camera;
 
-// FactoryCam is a Camera. (IS-A)
+// FactoryCam is a Camera. (IS-A 관계)
 public class FactoryCam extends Camera { // 자식 클래스
     public FactoryCam() {
         // this.name = "공장 카메라";

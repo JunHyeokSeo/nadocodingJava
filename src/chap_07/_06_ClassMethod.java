@@ -10,6 +10,8 @@ public class _06_ClassMethod {
 
         BlackBox.callServiceCenter();
 
+        //클래스 메소드 : 객체 생성 없이도 호출 가능(모든 객체가 공유하는 동일한 기능)
+        //인스턴스 메소드 : 객체마다 서로 다른 기능을 수행할 수 있음
         String s = String.valueOf(3);
     }
 }

@@ -17,6 +17,7 @@ public class BlackBox {
     }
 
     BlackBox(String modelName, String resolution, int price, String color) {
+        //새로운 생성자 호출 : this()
 //        this(); // 기본 생성자 호출
 //
 //        System.out.println("사용자 정의 생성자 호출");
