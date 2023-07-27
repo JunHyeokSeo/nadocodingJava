@@ -32,7 +32,6 @@ public class _02_Interface {
 		FactoryCam factoryCam = new FactoryCam();
 		factoryCam.setDetector(advancedFireDetector);
 		factoryCam.setReporter(videoReporter);
-		
 		factoryCam.detect();
 		factoryCam.report();
 	}
